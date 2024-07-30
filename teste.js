@@ -1,7 +1,11 @@
-let num1 = 2;
-let num2 = 4;
+let valorJantar = 80;
+let taxagarcom = 10;
+let total = 0;
 
-console.log('Soma: 2 + 4 = ' + (num1 + num2));
-console.log('Subtração: 2 - 4 =' +(num1 - num2));
-console.log('Divisão: 2 / 4 =' +(num1 / num2));
-console.log('Multiplição: 2 * 4 =' +(num1 * num2));
+total = 80 + ((taxagarcom/100) * 80);
+
+//console.log('Valor do jantar: R$' + valorJantar + ',00');
+console.log(`Valor do jantar: R$${valorJantar},00`);
+console.log(`Taxa do garçom: R$${(taxagarcom / 100) * 80},00`);
+console.log(`Taxa do garçom: R$${total},00`);
+
